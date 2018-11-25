@@ -9,8 +9,7 @@ Based off a lightly modified version of [Expose](https://github.com/Jack000/Expo
 Theme is based off [Hyde](https://github.com/poole/hyde) but you can change it easily by just replacing the theme directory.
 
 It's **current state is essentially a template of how _NOT_ to write a shell script.**
-The mess is my own fault but I will keep improving it whenever I can.  
-In the mean time, it works! Sort of...   
+The mess is my own fault but I will keep improving it whenever I can. In the mean time, it works! Sort of...   
 
 
 ### Installation
