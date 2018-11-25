@@ -1,0 +1,26 @@
+# #### website configs ####
+site_title="NextFive"
+site_sub_title="Making subtitle cool again"
+theme_dir="theme3"
+textcolor="#ffffff" # default text color
+override_textcolor=true # use given text color instead of extracted palette on body text.
+text_toggle=true
+extract_colors=true
+backgroundcolor="#000000" # slide background, visible only before image has loaded
+default_palette=("#000000" "#222222" "#444444" "#666666" "#999999" "#cccccc" "#ffffff")
+social_button=true
+download_button=false
+download_readme="All rights reserved"
+disqus_shortname=""
+# #### image configs ####
+jpeg_quality=92
+autorotate=true
+# #### image-sequence configs ####
+sequence_keyword="imagesequence" # if a directory name contains this keyword, treat it as an image sequence and compile it into a video
+sequence_framerate=24 # sequence framerat
+# #### video related configs ####
+bitrate_maxratio=2 # a multiple of target bitrate to get max bitrate for VBR encoding. must be > 1. Higher ratio gives better quality on scenes with lots of movement. Ratio=1 reduces to CBR encoding
+disable_audio=true
+h264_encodespeed="veryslow" # h264 encode speed, slower produces better compression results. Options are ultrafast,superfast, veryfast, faster, fast, medium, slow, slower, veryslow
+vp9_encodespeed=1 # VP9 encode speed, 0 is best and slowest, 4 for fastest. VP9 is very slow to encode in general. Note that 0 is dramatically slower than 1 with marginal quality improvement
+ffmpeg_threads=0 # the -threads option for ffmpeg encode (0=auto). This could be useful, for example if you need to throttle CPU load on a server that's doing other things.

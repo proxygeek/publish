@@ -1,0 +1,33 @@
+	<!-- head, body and navigation to be generated using nav-template.html -->
+	{{navigation}}
+    <div class="content container">
+		<div class="post">
+			<h1 class="post-title"> | {{posttitle}} | {{postsubtitle}} </h1>
+			
+			<span class="post-date"> {{postdate}}  by  <i> {{postauthor}} </i> </span>
+
+			{{postnote}}
+			<hr/>
+			
+			{{postcontent}}
+		</div>
+
+		
+		<div class="related">
+			<span>This post is tagged: [
+			  
+				<a href="/tag/advice"><code class="highligher-rouge"><nobr>{{tags}}</nobr></code></a>
+			  
+			] (click a tag for more posts in that category).</span>
+
+
+			<h2>Related Posts</h2>
+			<ul class="related-posts">
+
+			</ul>
+		</div>
+
+    </div>
+
+  </body>
+</html>
